@@ -1,3 +1,7 @@
+[![Tests](https://github.com/hathitrust/otis/actions/workflows/tests.yml/badge.svg)](https://github.com/hathitrust/github_actions_template/actions/workflows/tests.yml)
+[![Coverage Status](https://coveralls.io/repos/github/hathitrust/github_actions_template/badge.svg?branch=main)](https://coveralls.io/github/hathitrust/github_actions_template?branch=main)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/testdouble/standard)
+
 # Template repository for github actions for HathiTrust
 
 The example uses a Dockerfile for a Ruby project, but this is applicable to
@@ -13,6 +17,7 @@ See also the actions these workflows use:
 
 This repository includes:
 
+* examples for badges for tests, coveralls, and standardrb
 * Github Actions workflows for building a Docker image and deploying to
   Kubernetes. See individual workflows for additional comments.
 * starter `Dockerfile`, `Dockerfile.prod`, and `docker-compose.yml`, which implement our best attempt at a strategy around gem caching.
