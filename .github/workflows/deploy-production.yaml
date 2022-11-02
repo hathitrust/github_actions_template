@@ -19,7 +19,7 @@ jobs:
     - name: Deploy to ${{ env.environment }}
       uses: mlibrary/deploy-to-kubernetes@v3
       with:
-        registry_token: ${{ secrets.GITHUB_TOKEN }}
+        registry_token: ${{ github.token }}
         image: ghcr.io/${{ github.repository }}:${{ github.event.inputs.tag }}
         cluster_ca: ${{ secrets.KUBERNETES_CA }}
         cluster_server: ${{ secrets.KUBERNETES_SERVER }}
