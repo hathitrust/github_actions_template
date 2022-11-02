@@ -1,0 +1,21 @@
+---
+version: '3'
+
+services:
+
+  web:
+    build: .
+    volumes:
+      - .:/usr/src/app
+      - gem_cache:/gems
+    command: bundle exec ruby someapp.rb -o 0.0.0.0
+
+  test:
+    build: .
+    volumes:
+      - .:/usr/src/app
+      - gem_cache:/gems
+    command: bundle exec rspec
+
+volumes:
+  gem_cache:
