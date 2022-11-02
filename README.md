@@ -1,5 +1,5 @@
-[![Tests](https://github.com/hathitrust/otis/actions/workflows/tests.yml/badge.svg)](https://github.com/hathitrust/github_actions_template/actions/workflows/tests.yml)
-[![Coverage Status](https://coveralls.io/repos/github/hathitrust/github_actions_template/badge.svg?branch=main)](https://coveralls.io/github/hathitrust/github_actions_template?branch=main)
+[![Tests](https://github.com/hathitrust/ruby_github_actions_template/actions/workflows/tests.yml/badge.svg)](https://github.com/hathitrust/ruby_github_actions_template/actions/workflows/tests.yml)
+[![Coverage Status](https://coveralls.io/repos/github/hathitrust/ruby_github_actions_template/badge.svg?branch=main)](https://coveralls.io/github/hathitrust/ruby_github_actions_template?branch=main)
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/testdouble/standard)
 
 # Template repository for github actions for HathiTrust
