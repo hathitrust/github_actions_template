@@ -2,9 +2,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/hathitrust/ruby_github_actions_template/badge.svg?branch=main)](https://coveralls.io/github/hathitrust/ruby_github_actions_template?branch=main)
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/testdouble/standard)
 
-# Template repository for github actions for HathiTrust
-
-The example uses a Dockerfile for a Ruby project, but this is applicable to
+# Template repository for Ruby project using shared HathiTrust GitHub Actions workflows
+The example uses a Dockerfile for a Ruby project, but the GitHub Actions workflows are applicable to
 projects in perl as well.
 
 To be able to deploy to Kubernetes using these actions, you will need to first
