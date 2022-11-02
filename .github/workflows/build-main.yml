@@ -30,9 +30,8 @@ jobs:
     environment: staging
     steps:
     - name: Deploy to ${{ env.environment }}
-      uses: mlibrary/deploy-to-kubernetes@v2
+      uses: mlibrary/deploy-to-kubernetes@v3
       with:
-        registry_username: ${{ github.actor }}
         registry_token: ${{ secrets.GITHUB_TOKEN }}
         image: ghcr.io/${{ github.repository }}-unstable:${{ github.sha }}
         cluster_ca: ${{ secrets.KUBERNETES_CA }}
