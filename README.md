@@ -19,3 +19,9 @@ This repository includes:
 * LICENSE required by all HathiTrust projects
 * Starter Gemfile, rspec, coveralls configuration
 * `wait-for` from https://github.com/eficode/wait-for, which we use extensively in CI workflows for waiting for mysql etc to become ready
+
+## Usage
+
+[Use this template](https://github.com/hathitrust/ruby_github_actions_template/generate), or copy individual files into your project.
+
+When using this template, document inline variation in the Dockerfiles and github actions. That will help in understanding divergence between individual projects and future updates to this template.
