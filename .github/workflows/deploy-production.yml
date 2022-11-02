@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-    - name: Deploy to ${{ env.environment }}
+    - name: Deploy to production
       uses: mlibrary/deploy-to-kubernetes@v3
       with:
         registry_token: ${{ github.token }}

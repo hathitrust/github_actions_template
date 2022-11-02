@@ -9,9 +9,6 @@ on:
         description: tag
         required: true
 
-env:
-  environment: testing
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -43,7 +40,7 @@ jobs:
       # This will set the image for a container called 'web' in a deployment called
       # 'web'. If you want to do something different on deploy, see
       # https://github.com/mlibrary/deploy-to-kubernetes
-      - name: Deploy to ${{ env.environment }}
+      - name: Deploy to testing
         uses: mlibrary/deploy-to-kubernetes@v3
         with:
           registry_token: ${{ github.token }}
