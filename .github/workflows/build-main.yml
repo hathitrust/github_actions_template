@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: hathitrust/github_actions/build@v1
         with:
-          image: ghcr.io/${{ github.repository }-unstable
+          image: ghcr.io/${{ github.repository }}-unstable
           dockerfile: Dockerfile.prod
           tag: ${{ github.sha }}
           push_latest: true
