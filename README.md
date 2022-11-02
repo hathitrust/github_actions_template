@@ -8,7 +8,7 @@ set up secrets using use https://github.com/mlibrary/config-repo-env.
 
 See also the actions these workflows use:
 
-* https://github.com/hathitrust/github\_actions
+* https://github.com/hathitrust/github_actions
 * https://github.com/mlibrary/deploy-to-kubernetes
 
 This repository includes:
