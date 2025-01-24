@@ -1,3 +1,7 @@
+
+> [!WARNING]  
+> Most of the stuff here is outdated and not how we'd do things any more regarding dockerfiles, docker-compose, etc, and probably other stuff. At this point if we wanted to start a brand-new repository we would probably want to strongly consider trying Python.
+
 [![Tests](https://github.com/hathitrust/ruby_github_actions_template/actions/workflows/tests.yml/badge.svg)](https://github.com/hathitrust/ruby_github_actions_template/actions/workflows/tests.yml)
 [![Coverage Status](https://coveralls.io/repos/github/hathitrust/ruby_github_actions_template/badge.svg?branch=main)](https://coveralls.io/github/hathitrust/ruby_github_actions_template?branch=main)
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/testdouble/standard)
